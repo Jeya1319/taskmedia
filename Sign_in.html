@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+    }
+    .container {
+        background: white;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        width: 350px;
+        text-align: center;
+    }
+    input {
+        width: 75%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+    input[type="submit"] {
+        background: #4CAF50;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        background: #45a049;
+    }
+    a {
+        color: #007BFF;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    @media screen and (max-width: 1700px) {
+            body { 
+                background :url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2JBPVAYNKBbaEOeK234u5RdQZ9vnHBY9uVw&s') no-repeat center center fixed ;
+                background-size:cover ; 
+        }
+        }
+        @media screen and (max-width: 800px) {
+            body {
+                background :url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvgLabEk0D5CVwCzBw4HK7-DFf1sEeIk0nUQ&s') no-repeat center center fixed ;
+                background-size:cover ; 
+                  }
+        }
+        @media screen and (max-width: 600px) {
+            body {
+                background :url('file:///C:/Users/ELCOT/Music/butterfly.jpg') no-repeat center center fixed ;
+                background-size:cover ;  }
+        }
+        @media screen and (max-width: 500px) {
+            body {
+                background :url('file:///C:/Users/ELCOT/Music/butterfly.jpg') no-repeat center center fixed ;
+                background-size:cover ;  }
+        }
+        @media screen and (max-width: 100px) {
+            body { 
+                background :url('file:///C:/Users/ELCOT/Music/butterfly.jpg') no-repeat center center fixed ;
+                background-size:cover ;  }
+        }
+</style>
+
+<body>
+    <body>
+        <div class="container">
+            <h1>Sign In</h1>
+            
+            <form action="Registration form" method="post"></form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <br><br>
+    
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br><br>
+                <label for="show password">showpassword:</label>
+                <input type="checkbox" id="showpassword" name="showpassword">
+                <br>
+    
+
+                <input type="submit" value="Login">
+               
+            </form>
+            <div class="forgot-password">
+                <a href="forgot-password.html">Forgot Password?</a>
+            
+            </div>
+            <div class="signup-link">
+                Don't have an account? <a href="index.html">Sign Up</a>
+            </div>
+        </div>
+    </body>
+    </html>
+    
+</body>
+</html>
